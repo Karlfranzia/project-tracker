@@ -1,3 +1,16 @@
+// var myModal = document.getElementById('modal')
+// var myInput = document.getElementById('modal')
+
+// myModal.addEventListener('shown.bs.modal', function () {
+//   myInput.focus()
+// })
+
+
+$( function() {
+    $("#datepicker").datepicker();
+    changeMonth: true;
+    changeYear: true;
+  } );
 // get current time and date
 let currentTime = dayjs().format('MMM D, YYYY @ hh:mm:ss a')
 
